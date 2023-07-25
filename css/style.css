@@ -1,0 +1,28 @@
+h1,h3,h4,h5,h6{
+    font-family: 'Pacifico', cursive;
+}
+
+body{
+    font-family: "PT Sans Caption", sans-serif;
+ background-color: thistle;
+}
+.text{
+    bottom: 20px;
+    width: 80%;
+}
+#lightBox{
+    position: fixed;
+    top:0;
+    left:0;
+    right: 0;
+    bottom: 0;
+    z-index: 9;
+    background-color: rgba(0,0,0,.5);
+}
+
+#item{
+     width: 400px;
+    height: 400px;
+    background-size: cover;
+   
+}
