@@ -20,12 +20,12 @@ var btnclose=document.querySelector('.fa-circle-xmark');
 var box='';
 for(i=0;i<imgs.length;i++){
     box+=`
-    <div class="col-md-4 ">
+    <div class="col-sm-4 ">
     <div class="card position-relative">
         <img class="img-fluid rounded-2" src="${imgs[i]}" alt="">
-        <div class="text text-center p-3 position-absolute start-50 translate-middle-x bg-white">
-            <h3>Title heading# ${i+1}</h3>
-            <p>Lorem ipsum dolor sit.</p>
+        <div class="text p-1  position-absolute start-50 translate-middle-x bg-white">
+            <h6 class="d-flex align-items-center justify-content-center">Title heading# ${i+1}</h6>
+            
         </div>
     </div>
 
