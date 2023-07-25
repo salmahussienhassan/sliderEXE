@@ -20,7 +20,7 @@ var btnclose=document.querySelector('.fa-circle-xmark');
 var box='';
 for(i=0;i<imgs.length;i++){
     box+=`
-    <div class="col-sm-4 ">
+    <div class="col-md-4 ">
     <div class="card position-relative">
         <img class="img-fluid rounded-2" src="${imgs[i]}" alt="">
         <div class="text p-1  position-absolute start-50 translate-middle-x bg-white">
